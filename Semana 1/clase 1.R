@@ -1,7 +1,7 @@
-resultados2014 = read_delim( "C:/Users/marco/Desktop/7 mo ciclo/Analisis multiariado/Clase 1 - 03 22/resultados2014.csv", ",",
+resultados2014 = read_delim( "C:/Users/marco/OneDrive - Universidad Peruana Unión/Escritorio/7 mo ciclo/Analisis multiariado/GIT/Semana 1/resultados2014.csv", ",",
                             escape_double = FALSE, trim_ws=TRUE)
 
-resultados2018 = read_delim( "C:/Users/marco/Desktop/7 mo ciclo/Analisis multiariado/Clase 1 - 03 22/resultados2018.csv", ",",
+resultados2018 = read_delim( "C:/Users/marco/OneDrive - Universidad Peruana Unión/Escritorio/7 mo ciclo/Analisis multiariado/GIT/Semana 1/resultados2018.csv", ",",
                             escape_double = FALSE, trim_ws=TRUE)
 
 head(resultados2014,5)
@@ -9,16 +9,19 @@ head(resultados2014,5)
 head(resultados2018,5)
 
 #//CUANTAS FILAS Y COLUMNAS TIENEN
-dim()
+dim(resultados2014)
+dim(resultados2018)
 
 #//TIPO DE DATOS , double, string
 str(resultados2018)
 
 #//Nombres tienen las variables
-names()
+names(resultados2014)
+names(resultados2018)
 
 #//Datos descriptivos de las variables
 summary(resultados2018)
+summary(resultados2014)
 
 
 names(resultados2018)
