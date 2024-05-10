@@ -5,7 +5,7 @@ library(readxl)
 
 
 #Insertar data mediante direccion
-universidad <- read_excel("C:\Users\marco\OneDrive - Universidad Peruana Unión\Escritorio\7 mo ciclo\Analisis multiariado\GIT\Semana 7\universidad.xlsx")
+universidad <- read_excel("C:/Users/marco/OneDrive - Universidad Peruana Unión/Escritorio/7 mo ciclo/Analisis multiariado/GIT/Semana 7/universidad.xlsx")
 View(universidad)
 
 # Codigo GPT para que solo seleccione las columnas numéricas 🙏😎
